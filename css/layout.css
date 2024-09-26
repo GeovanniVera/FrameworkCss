@@ -1,6 +1,29 @@
+header{
+    background-color: rgb(203, 205, 207);
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 
+@media (min-width:720px){
+    .nav{
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+}
 .menu{
     height: 100vh;
+    background-color: rgb(14, 6, 6);
+}
+.circulo{
+    margin-left: 50%;
+    transform: translate(-50%);
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50%;
 }
 main{
     height: 100vh;
