@@ -60,7 +60,9 @@ h1{
         width: 100%;
     }
 }
-
+.fix{
+    position: fixed;
+}
 .box {
     height: 200px;
 }

@@ -1,5 +1,5 @@
 header{
-    background-color: rgb(203, 205, 207);
+    background-color: transparent;
 }
 .nav{
     display: flex;
@@ -15,14 +15,14 @@ header{
 }
 .menu{
     height: 100vh;
-    background-color: rgb(14, 6, 6);
+    background-color: transparent;
 }
 .circulo{
     margin-left: 50%;
     transform: translate(-50%);
     width: 100px;
     height: 100px;
-    background-color: #fff;
+    background-color: #000000af;
     border-radius: 50%;
 }
 main{
