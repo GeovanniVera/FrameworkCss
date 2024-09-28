@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Playwrite+DE+Grund:100,200,300,regular);
 
 :root {
-    --red: rgb(202, 28, 28);
-    --azul: rgb(30, 30, 177);
+    --red: rgb(221, 83, 83);
+    --azul: rgb(123, 123, 236);
     --verde: rgb(14, 180, 14);
     --negro: #000;
     --gray: #000000c5;
     --blanco: #fff;
     --orange: #ff8800;
     --roboto: "Roboto", sans-serif;
+    --playwrite:'Playwrite DE Grund';
 }
 
 html {
@@ -60,7 +62,8 @@ h1 {
 
 @media (min-width:720px) {
     .container {
-        width: 100%;
+        width: 90%;
+        margin: auto;
     }
 }
 
@@ -342,17 +345,38 @@ label {
 }
 
 input {
-    width: calc(100% - 1rem);
-    padding: 1rem;
+    width: 100% ;
+    padding:0.5rem 0.8rem;
 }
 
 input[type=submit] {
-    width: 50%;
-    padding: 0.8rem;
-    font-size: 1.3rem;
+    width: 20%;
+    padding: 0.5rem;
+    
     cursor: pointer;
     letter-spacing: 1px;
 }
 input:focus{
-    color: var(--gray);
+    color: var(--azul);
+}
+.f{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.c{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.c-sm-100{
+    width: 100%;
+}
+@media (min-width:720px){
+    .c-lg-50{
+        width: calc(50% - 0.5rem);
+    }
+    .c-lg-100{
+        width: calc(100% - 0rem)
+    }
 }

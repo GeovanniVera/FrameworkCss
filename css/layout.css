@@ -32,6 +32,18 @@ main{
 .form{
     border-radius: 10px;
     padding: 2rem;
-    width: 50%;
+    width: 40%;
     margin: auto;
+    font-family: var(--roboto);
+}
+.form-contact{
+    width: 40%;
+    margin:2rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: #f12711;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
